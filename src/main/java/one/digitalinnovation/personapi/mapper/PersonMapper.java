@@ -1,4 +1,4 @@
-package one.digitalinnovation.personapi.dto.mapper;
+package one.digitalinnovation.personapi.mapper;
 
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.entities.Person;
