@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
-
-@marcelomarques7
-rpeleias
-/
-personapi_dio_live_coding
-Public
-0
-712
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Created README.md file
-master
-@rpeleiasteste
-rpeleiasteste committed on 30 Apr 2020
-1 parent 0d35461 commit 81585ff7649084e6ad89a06c9ac72116532ff0e6
-Showing  with 58 additions and 10 deletions.
-54  README.md
-@@ -0,0 +1,54 @@
 <h2>Digital Innovation: Expert class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
 
 Nesta live coding vamos desenvolver um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
