@@ -59,7 +59,7 @@ package one.digitalinnovation.personapi.controller;
 import lombok.AllArgsConstructor;
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.dto.response.MessageResponseDTO;
-import one.digitalinnovation.personapi.entity.Person;
+import one.digitalinnovation.personapi.entities.Person;
 @@ -22,15 +23,11 @@
 
 @RestController
@@ -79,12 +79,12 @@ public class PersonController {
     public MessageResponseDTO createPerson(@RequestBody @Valid PersonDTO personDTO) {
 7  src/main/java/one/digitalinnovation/personapi/service/PersonService.java
 @@ -1,5 +1,6 @@
-package one.digitalinnovation.personapi.service;
+package one.digitalinnovation.personapi.services;
 
 import lombok.AllArgsConstructor;
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.dto.response.MessageResponseDTO;
-import one.digitalinnovation.personapi.entity.Person;
+import one.digitalinnovation.personapi.entities.Person;
 @@ -13,17 +14,13 @@
 import java.util.stream.Collectors;
 
